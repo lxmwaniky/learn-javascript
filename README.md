@@ -44,7 +44,7 @@ I'm challenging myself to learn JavaScript in 30 Days from Scratch. Ill be uploa
      ### [Exercise 2](2-rock-paper-scissors.html)
      Implement Rock Paper Scissors game.
      1. Prompt user to choose either rock, paper, or scissors.
-     2. Generate computer's choice randomly.
+     2. Generate computer's choice randomly. `Math.random()`
      3. Compare the two choices.
         - If they are the same print draw.
         - If one wins over the other print winner.
