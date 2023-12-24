@@ -13,7 +13,7 @@ I'm challenging myself to learn JavaScript in 30 Days from Scratch. Ill be uploa
         - `<button onclick="Action">Click Me</button>`
         - `alert('Message Pop up')`
 
- - [Variables and Data Types](1-variables.html)
+ - [Variables](1-variables.html)
    - Variable Naming Conventions
         - Use meaningful names for variables
         - Avoid using reserved words as variable names (`var if = false;`)
@@ -31,4 +31,21 @@ I'm challenging myself to learn JavaScript in 30 Days from Scratch. Ill be uploa
         3. Increment by 2.
         4. Increment by 3.
         5. Reset Cart.
-        
+- [Booleans](2-booleans.html)
+   - Booleans are `true` or  `false` values.
+   - They are used in conditional statements like If Else Statements.
+     - `==` - equals to
+     - `!=` - not equal to
+     - `===` - Checks for equality in both logic and datatype
+     - `>=` - greater than or equal to
+     - `<=` - less than or equal to
+   - Logical operators `&` AND `|` OR `NOT !`.
+   - if Else statements
+     ### [Exercise 2](2-rock-paper-scissors.html)
+     Implement Rock Paper Scissors game.
+     1. Prompt user to choose either rock, paper, or scissors.
+     2. Generate computer's choice randomly.
+     3. Compare the two choices.
+        - If they are the same print draw.
+        - If one wins over the other print winner.
+        - If none win print tie.
