@@ -41,6 +41,14 @@ I'm challenging myself to learn JavaScript in 30 Days from Scratch. Ill be uploa
      - `<=` - less than or equal to
    - Logical operators `&&` AND `||` OR `!` NOT.
    - if Else statements
+   - Falsy Values
+     - false
+     - 0
+     - null
+     - undefined
+     - '' (empty string)
+     - NaN (Not a number)
+     
      ### [Exercise 2](2-rock-paper-scissors.html)
      Implement Rock Paper Scissors game.
      1. Prompt user to choose either rock, paper, or scissors.
