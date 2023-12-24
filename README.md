@@ -39,7 +39,7 @@ I'm challenging myself to learn JavaScript in 30 Days from Scratch. Ill be uploa
      - `===` - Checks for equality in both logic and datatype
      - `>=` - greater than or equal to
      - `<=` - less than or equal to
-   - Logical operators `&` AND `|` OR `NOT !`.
+   - Logical operators `&&` AND `||` OR `!` NOT.
    - if Else statements
      ### [Exercise 2](2-rock-paper-scissors.html)
      Implement Rock Paper Scissors game.
