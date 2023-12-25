@@ -50,7 +50,7 @@ I'm challenging myself to learn JavaScript in 30 Days from Scratch. Ill be uploa
      - NaN (Not a number)
      
      ### [Exercise 2](2-rock-paper-scissors.html)
-     Implement Rock Paper Scissors game.
+     Implement [Rock Paper Scissors game](https://supersimple.dev/projects/rock-paper-scissors/).
      1. Prompt user to choose either rock, paper, or scissors.
      2. Generate computer's choice randomly. `Math.random()`
      3. Compare the two choices.
