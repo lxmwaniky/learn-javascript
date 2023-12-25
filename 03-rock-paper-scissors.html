@@ -8,16 +8,7 @@
 <body>
         <p>Rock Paper Scissors</p>
         <button onclick="
-                const randomNumber = Math.random();
-                let computerChoice = '';
-                let result = '';
-                if (randomNumber >= 0 && randomNumber < 1/3){
-                        computerChoice = 'rock';
-                } else if (randomNumber >= 1/3 && randomNumber < 2/3){
-                        computerChoice = 'paper';
-                } else if (randomNumber >= 2/3 && randomNumber < 1){
-                        computerChoice = 'scissors';
-                }
+                getComputerChoice();
                 if (computerChoice === 'rock'){
                         result = 'Tie';
                 } else if (computerChoice === 'paper'){
@@ -28,16 +19,7 @@
                 alert(`You: Rock  | Comp: ${computerChoice}.  ----> ${result}`);
         ">Rock</button>
         <button onclick="
-                const randomNumber = Math.random();
-                let computerChoice = '';
-                let result = '';
-                if (randomNumber >= 0 && randomNumber < 1/3){
-                        computerChoice = 'rock';
-                } else if (randomNumber >= 1/3 && randomNumber < 2/3){
-                        computerChoice = 'paper';
-                } else if (randomNumber >= 2/3 && randomNumber < 1){
-                        computerChoice = 'scissors';
-                }
+                getComputerChoice();
                 if (computerChoice === 'rock'){
                         result = 'Won';
                 } else if (computerChoice === 'paper'){
@@ -48,16 +30,7 @@
                 alert(`You: Paper  | Comp: ${computerChoice}.  ----> ${result}`);
         ">Paper</button>
         <button onclick="
-                const randomNumber = Math.random();
-                let computerChoice = '';
-                let result = '';
-                if (randomNumber >= 0 && randomNumber < 1/3){
-                        computerChoice = 'rock';
-                } else if (randomNumber >= 1/3 && randomNumber < 2/3){
-                        computerChoice = 'paper';
-                } else if (randomNumber >= 2/3 && randomNumber < 1){
-                        computerChoice = 'scissors';
-                }
+                getComputerChoice();
                 if (computerChoice === 'rock'){
                         result = 'Lost';
                 } else if (computerChoice === 'paper'){
@@ -68,7 +41,18 @@
                 alert(`You: Scissors  | Comp: ${computerChoice}.  ----> ${result}`);
         ">Scissors</button>
         <script>
-                
+                let computerChoice = '';
+                let result = '';
+                function getComputerChoice(){
+                        const randomNumber = Math.random();
+                        if (randomNumber >= 0 && randomNumber < 1/3){
+                                computerChoice = 'rock';
+                        } else if (randomNumber >= 1/3 && randomNumber < 2/3){
+                                computerChoice = 'paper';
+                        } else if (randomNumber >= 2/3 && randomNumber < 1){
+                                computerChoice = 'scissors';
+                        }
+                }
         </script>
 </body>
 </html>
