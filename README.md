@@ -70,3 +70,7 @@ I'm challenging myself to learn JavaScript in 30 Days from Scratch. Ill be uploa
      - If nothing is returned then JavaScript returns `undefined`.
      - Global scope is where all variables exist unless declared otherwise using `var`, `let`, or `const`.
      - Local scope is created when a function is executed. It exists only while the function is being run.
+     ### [Exercise 3](03-rock-paper-scissors.html)
+     Make [the Rock Paper Scissors game](02-rock-paper-scissors.html) more cleaner using fuctions
+     1. Wrap the prompts into a separate function.
+     2. Use arrow functions which have shorter syntax.
