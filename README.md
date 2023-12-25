@@ -1,7 +1,7 @@
 # learn-javascript
 I'm challenging myself to learn JavaScript in 30 Days from Scratch. Ill be uploading the resources here and my thoughts on the same
 ## Day 0
- - Javascript Basics
+ - ## Javascript Basics
    - Data types
         - Boolean   : `true` or `false`
         - String    : `'Hello World'`
@@ -13,7 +13,7 @@ I'm challenging myself to learn JavaScript in 30 Days from Scratch. Ill be uploa
         - `<button onclick="Action">Click Me</button>`
         - `alert('Message Pop up')`
 
- - [Variables](1-variables.html)
+ - ## [Variables](1-variables.html)
    - Variable Naming Conventions
         - Use meaningful names for variables
         - Avoid using reserved words as variable names (`var if = false;`)
@@ -31,7 +31,8 @@ I'm challenging myself to learn JavaScript in 30 Days from Scratch. Ill be uploa
         3. Increment by 2.
         4. Increment by 3.
         5. Reset Cart.
-- [Booleans](2-booleans.html)
+## Day 1
+- ## [Booleans](2-booleans.html)
    - Booleans are `true` or  `false` values.
    - They are used in conditional statements like If Else Statements.
      - `==` - equals to
@@ -57,3 +58,15 @@ I'm challenging myself to learn JavaScript in 30 Days from Scratch. Ill be uploa
         - If they are the same print draw.
         - If one wins over the other print winner.
         - If none win print tie.
+## Day 2
+- ## [Functions](03-functions.html)
+     - Functions allow you to package code so that it can be reused throughout your program.
+     - Syntax: `function function_name(parameter1, parameter2){}`
+     - Parameter list `( )` is optional if there are no parameters.
+     - To call a function use its name followed by parentheses `()`.
+     - The value returned from a function is stored in a special variable called `return`.
+     - Functions can also return nothing by leaving out the `return` statement entirely. This returns `undefined`, which is treated as `false` in
+     - A function can return anything including objects, arrays, strings, numbers etc.
+     - If nothing is returned then JavaScript returns `undefined`.
+     - Global scope is where all variables exist unless declared otherwise using `var`, `let`, or `const`.
+     - Local scope is created when a function is executed. It exists only while the function is being run.
