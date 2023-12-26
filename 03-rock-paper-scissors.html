@@ -8,7 +8,7 @@
 <body>
         <p>Rock Paper Scissors</p>
         <button onclick="
-                getComputerChoice();
+                const computerChoice = getComputerChoice();
                 if (computerChoice === 'rock'){
                         result = 'Tie';
                 } else if (computerChoice === 'paper'){
@@ -19,7 +19,7 @@
                 alert(`You: Rock  | Comp: ${computerChoice}.  ----> ${result}`);
         ">Rock</button>
         <button onclick="
-                getComputerChoice();
+                const computerChoice = getComputerChoice();
                 if (computerChoice === 'rock'){
                         result = 'Won';
                 } else if (computerChoice === 'paper'){
@@ -30,7 +30,7 @@
                 alert(`You: Paper  | Comp: ${computerChoice}.  ----> ${result}`);
         ">Paper</button>
         <button onclick="
-                getComputerChoice();
+                const computerChoice = getComputerChoice();
                 if (computerChoice === 'rock'){
                         result = 'Lost';
                 } else if (computerChoice === 'paper'){
@@ -52,6 +52,7 @@
                         } else if (randomNumber >= 2/3 && randomNumber < 1){
                                 computerChoice = 'scissors';
                         }
+                        return computerChoice;
                 }
         </script>
 </body>
