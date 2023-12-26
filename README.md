@@ -96,3 +96,4 @@ I'm challenging myself to learn JavaScript in 30 Days from Scratch. Ill be uploa
      Add a score tracker to the [Rock Paper scissors game](03-rock-paper-scissors.html)
      1. Create an object named `score` with properties for both player and computer scores.
      2. Whenever someone wins update their respective score.
+     3. Create a `Reset score` button that resets all scores to `0`.
