@@ -37,6 +37,34 @@
                 delete studentDetails.age;
                 console.log(studentDetails.age);  //Outputs undefined
 
+                //Nested Objects
+                const student = {
+                        name: 'Alex',
+                        age: '19',
+                        course: 'Software Engineering',
+                        address: {
+                                city: 'Nairobi',
+                                country: 'Kenya'
+                        }
+                };
+                console.log(student.address.city);   //Access nested property directly
+                console.log(student['address']['country']);  //Access nested property using bracket notation
+
+                //Function inside an Object
+                const student1 = {
+                        name: 'Alex',
+                        age: '19',
+                        course: 'Software Engineering',
+                        address: {
+                                city: 'Nairobi',
+                                country: 'Kenya'
+                        },
+                        about: function aboutMe(){
+                                console.log('Hello World, I\'m Alex, a Back-End Developer');
+                        }
+                };
+                student1.about();   //Calling the function
+
         </script>
 </body>
 </html>
