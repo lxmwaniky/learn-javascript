@@ -88,5 +88,7 @@ I'm challenging myself to learn JavaScript in 30 Days from Scratch. Ill be uploa
           - `console.log(objectName["propertyName"]); // Same as above.`
      - Objects are dynamic meaning new properties can be added at any time.
      - Methods are just like properties but instead of holding values they hold functions.
-
-
+     - Why we use Objects
+          1. Store related data together.
+          2. Group functionality together.
+          3. Makes code easier to read and manage.
