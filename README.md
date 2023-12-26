@@ -1,14 +1,14 @@
 # learn-javascript
 I'm challenging myself to learn JavaScript in 30 Days from Scratch. Ill be uploading the resources here and my thoughts on the same
 ## Day 0
- - ## Javascript Basics
-   - Data types
-        - Boolean   : `true` or `false`
-        - String    : `'Hello World'`
-        - Number    : `42`, `-9.3`
-   - Math Functions and Operators
-        - Arithmetic: `+, - , * /`
-   - Uses
+- ## Javascript Basics
+     - Data types
+     - Boolean   : `true` or `false`
+     - String    : `'Hello World'`
+     - Number    : `42`, `-9.3`
+     - Math Functions and Operators
+          - Arithmetic: `+, - , * /`
+     - Uses
         - `console.log('Print Something Here')`
         - `<button onclick="Action">Click Me</button>`
         - `alert('Message Pop up')`
@@ -74,3 +74,19 @@ I'm challenging myself to learn JavaScript in 30 Days from Scratch. Ill be uploa
      Make [the Rock Paper Scissors game](02-rock-paper-scissors.html) more cleaner using fuctions
      1. Wrap the prompts into a separate function.
      2. Use arrow functions which have shorter syntax.
+## Day 3
+ - ## [Objects](04-objects.html)
+     - An object is a collection of key value pairs.
+     - Syntax:
+          -  `const objectName = {
+               propertyName : "value",
+               anotherProperty : "anotherValue",
+               };`
+     - You can access properties with dot notation `.`
+          - `console.log(objectName.propertyName);`
+     - Or bracket notation `[ ]`
+          - `console.log(objectName["propertyName"]); // Same as above.`
+     - Objects are dynamic meaning new properties can be added at any time.
+     - Methods are just like properties but instead of holding values they hold functions.
+
+
