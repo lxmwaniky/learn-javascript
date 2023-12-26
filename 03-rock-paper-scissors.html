@@ -15,6 +15,7 @@
                 let computerChoice = '';
                 let result = '';
 
+                //Function To Execute The Game Play
                 function playGame(playerChoice){
                         if (playerChoice === 'rock'){
                                 const computerChoice = getComputerChoice();
@@ -47,6 +48,7 @@
                         alert(`YOU:  ${playerChoice}\nCOMP:  ${computerChoice}.\n\n${result}`);
                 }
 
+                // Function To Get The Computer Choice
                 function getComputerChoice(){
                         const randomNumber = Math.random();
                         if (randomNumber >= 0 && randomNumber < 1/3){
