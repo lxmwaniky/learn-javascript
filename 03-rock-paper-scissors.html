@@ -7,15 +7,11 @@
 </head>
 <body>
         <p>Rock Paper Scissors</p>
-        <button onclick="
-                playGame('rock');
-        ">Rock</button>
-        <button onclick="
-                playGame('paper');
-        ">Paper</button>
-        <button onclick="
-                playGame('scissors');
-        ">Scissors</button>
+        <button onclick="playGame('rock');">Rock</button>
+        <button onclick="playGame('paper');">Paper</button>
+        <button onclick="playGame('scissors');">Scissors</button>
+
+
         <script>
                 let computerChoice = '';
                 let result = '';
@@ -24,29 +20,29 @@
                         if (playerChoice === 'rock'){
                                 const computerChoice = getComputerChoice();
                                 if (computerChoice === 'rock'){
-                                        result = '⚖⚖';
+                                        result = '⚖⚖DRAW';
                                 } else if (computerChoice === 'paper'){
-                                        result = '❌❌';
+                                        result = '❌❌LOST';
                                 } else if (computerChoice === 'scissors'){
-                                        result = '✅✅';
+                                        result = '✅✅WON';
                                 }
                         } else if (playerChoice === 'paper'){
                                 const computerChoice = getComputerChoice();
                                 if (computerChoice === 'rock'){
-                                        result = '✅✅';
+                                        result = '✅✅WON';
                                 } else if (computerChoice === 'paper'){
-                                        result = '⚖⚖';
+                                        result = '⚖⚖DRAW';
                                 } else if (computerChoice === 'scissors'){
-                                        result = '❌❌';
+                                        result = '❌❌LOST';
                                 }
                         } else if (playerChoice === 'scissors'){
                                 const computerChoice = getComputerChoice();
                                 if (computerChoice === 'rock'){
-                                        result = '❌❌';
+                                        result = '❌❌LOST';
                                 } else if (computerChoice === 'paper'){
-                                        result = '✅✅';
+                                        result = '✅✅WON';
                                 } else if (computerChoice === 'scissors'){
-                                        result = '⚖⚖';
+                                        result = '⚖⚖DRAW';
                                 }
                         }
                         alert(`YOU:  ${playerChoice}\nCOMP:  ${computerChoice}.\n\n${result}`);
