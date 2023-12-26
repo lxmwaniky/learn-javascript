@@ -97,3 +97,9 @@ I'm challenging myself to learn JavaScript in 30 Days from Scratch. Ill be uploa
      1. Create an object named `score` with properties for both player and computer scores.
      2. Whenever someone wins update their respective score.
      3. Create a `Reset score` button that resets all scores to `0`.
+  - #### LocalStorage & sessionStorage
+     - Web storage API provides a way to store data on the client side.
+     - There are two types of web storage `localStorage` and `sessionStorage`.
+     - `localStorage` stores data even after closing browser tab/window.
+     - `sessionStorage` will remove data once closed.
+     - Both work in similar fashion except data persists longer.
