@@ -92,3 +92,7 @@ I'm challenging myself to learn JavaScript in 30 Days from Scratch. Ill be uploa
           1. Store related data together.
           2. Group functionality together.
           3. Makes code easier to read and manage.
+     ### [Exercise 4](04-rock-paper-scissors.html)
+     Add a score tracker to the [Rock Paper scissors game](03-rock-paper-scissors.html)
+     1. Create an object named `score` with properties for both player and computer scores.
+     2. Whenever someone wins update their respective score.
