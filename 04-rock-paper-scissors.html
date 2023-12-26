@@ -18,15 +18,12 @@
         ">Reset Score</button>
 
         <script>
+
                 let computerChoice = '';
                 let result = '';
 
                //Score Tracker
-                const score = {
-                        wins: 0,
-                        losses: 0,
-                        draws: 0
-                };
+                const score = JSON.parse(localStorage.getItem('score'));
 
                 //Function To Execute The Game Play
                 function playGame(playerChoice){
@@ -67,6 +64,9 @@
                                 score.wins += 1;
                         }
 
+                        
+                        localStorage.setItem('score', JSON.stringify(score));
+                        
                         //Displays
                         alert(`
                         YOU:  ${playerChoice}  |  COMP: ${computerChoice}.
@@ -89,6 +89,7 @@
                         }
                         return computerChoice;
                 }
+
         </script>
 </body>
 </html>
