@@ -8,41 +8,50 @@
 <body>
         <p>Rock Paper Scissors</p>
         <button onclick="
-                const computerChoice = getComputerChoice();
-                if (computerChoice === 'rock'){
-                        result = 'Tie';
-                } else if (computerChoice === 'paper'){
-                        result = 'Lost';
-                } else if (computerChoice === 'scissors'){
-                        result = 'Won';
-                }
-                alert(`You: Rock  | Comp: ${computerChoice}.  ----> ${result}`);
+                playGame('rock');
         ">Rock</button>
         <button onclick="
-                const computerChoice = getComputerChoice();
-                if (computerChoice === 'rock'){
-                        result = 'Won';
-                } else if (computerChoice === 'paper'){
-                        result = 'Tie';
-                } else if (computerChoice === 'scissors'){
-                        result = 'Lost';
-                }
-                alert(`You: Paper  | Comp: ${computerChoice}.  ----> ${result}`);
+                playGame('paper');
         ">Paper</button>
         <button onclick="
-                const computerChoice = getComputerChoice();
-                if (computerChoice === 'rock'){
-                        result = 'Lost';
-                } else if (computerChoice === 'paper'){
-                        result = 'Won';
-                } else if (computerChoice === 'scissors'){
-                        result = 'Tie';
-                }
-                alert(`You: Scissors  | Comp: ${computerChoice}.  ----> ${result}`);
+                playGame('scissors');
         ">Scissors</button>
         <script>
                 let computerChoice = '';
                 let result = '';
+
+                function playGame(playerChoice){
+                        if (playerChoice === 'rock'){
+                                const computerChoice = getComputerChoice();
+                                if (computerChoice === 'rock'){
+                                        result = '⚖⚖';
+                                } else if (computerChoice === 'paper'){
+                                        result = '❌❌';
+                                } else if (computerChoice === 'scissors'){
+                                        result = '✅✅';
+                                }
+                        } else if (playerChoice === 'paper'){
+                                const computerChoice = getComputerChoice();
+                                if (computerChoice === 'rock'){
+                                        result = '✅✅';
+                                } else if (computerChoice === 'paper'){
+                                        result = '⚖⚖';
+                                } else if (computerChoice === 'scissors'){
+                                        result = '❌❌';
+                                }
+                        } else if (playerChoice === 'scissors'){
+                                const computerChoice = getComputerChoice();
+                                if (computerChoice === 'rock'){
+                                        result = '❌❌';
+                                } else if (computerChoice === 'paper'){
+                                        result = '✅✅';
+                                } else if (computerChoice === 'scissors'){
+                                        result = '⚖⚖';
+                                }
+                        }
+                        alert(`YOU:  ${playerChoice}\nCOMP:  ${computerChoice}.\n\n${result}`);
+                }
+
                 function getComputerChoice(){
                         const randomNumber = Math.random();
                         if (randomNumber >= 0 && randomNumber < 1/3){
