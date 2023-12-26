@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Objects in JavaScript</title>
+</head>
+<body>
+
+        <script>
+
+                // Creating an object
+                const studentDetails = {
+                        name: 'Alex',
+                        age: '19',
+                        course: 'Software Engineering'
+                };
+
+                // Accessing the object
+                console.log(typeof studentDetails);
+                console.log(studentDetails);
+                console.log(studentDetails.name);
+                console.log(studentDetails.age);
+                console.log(studentDetails.course);
+
+                // Changing the value of a property
+                studentDetails.name = 'Lxmwaniky';
+                console.log(studentDetails.name);
+
+                // Adding a new property
+                studentDetails.gender = "Male";
+                console.log(studentDetails.gender)
+                console.log(studentDetails);  //Updated Object
+                
+                // Deleting a property
+                delete studentDetails.age;
+                console.log(studentDetails.age);  //Outputs undefined
+
+        </script>
+</body>
+</html>
