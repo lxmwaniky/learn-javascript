@@ -10,6 +10,12 @@
         <button onclick="playGame('rock');">Rock</button>
         <button onclick="playGame('paper');">Paper</button>
         <button onclick="playGame('scissors');">Scissors</button>
+        <button onclick="
+                score.draws = 0;
+                score.losses = 0;
+                score.wins = 0;
+                alert('All Scores have been Reset');
+        ">Reset Score</button>
 
         <script>
                 let computerChoice = '';
@@ -66,7 +72,8 @@
                         YOU:  ${playerChoice}  |  COMP: ${computerChoice}.
                         WINS: ${score.wins}
                         LOSSES: ${score.losses}
-                        TIES: ${score.draws}`)
+                        DRAWS: ${score.draws}
+                        ${result}`)
                         
                 }
 
