@@ -104,4 +104,25 @@ I'm challenging myself to learn JavaScript in 30 Days from Scratch. Ill be uploa
      - `sessionStorage` will remove data once closed.
      - Both work in similar fashion except data persists longer.
  - ## [Document Object Model](05-dom.html) (DOM)
-    - 
+     - Document Object Model allows us to interact with HTML elements in our webpage.
+     - Every element on a page is represented by an object in the DOM.
+     - We can manipulate these objects to change how a webpage looks and behaves.
+     - Example manipulating paragraph text color:
+## Day 4
+ - ## [Arrays](06-arrays.html)
+     - Arrays are ordered collections of items.
+     - They can contain different types of data such as numbers, strings, objects, arrays etc.
+     - Array methods allow you to perform operations on arrays.
+     - Syntax for arrays
+          - `const arrayName = [value1, value2, value3];`
+     - Accessing array elements
+          * Using brackets `arrayName[index]`
+          * Dot Notation `arrayName.index`
+          
+     - Examples include `push()`, `pop()`, `shift()`, `unshift()`.
+          * `push()` adds one or many items to the end of array.
+          * `pop()` removes item from the end of array.
+          * `shift()` removes first item in array.
+          * `unshift()` adds one or many items to beginning of array.
+     - Array method chaining is when you call multiple methods one right after the other.
+     
