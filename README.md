@@ -103,3 +103,5 @@ I'm challenging myself to learn JavaScript in 30 Days from Scratch. Ill be uploa
      - `localStorage` stores data even after closing browser tab/window.
      - `sessionStorage` will remove data once closed.
      - Both work in similar fashion except data persists longer.
+ - ## [Document Object Model](05-dom.html) (DOM)
+    - 
