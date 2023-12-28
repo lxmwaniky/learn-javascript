@@ -133,4 +133,10 @@ I'm challenging myself to learn JavaScript in 30 Days from Scratch. Ill be uploa
           * `shift()` removes first item in array.
           * `unshift()` adds one or many items to beginning of array.
      - Array method chaining is when you call multiple methods one right after the other.
+     ### [Exercise 6](/06-to-do-list/)
+     Create a [To Do List](https://supersimple.dev/projects/arrays/)
+     1. Create an array to store todos.
+     2. Prompt user to enter todo.
+     3. User should be able to add new todos.
+
      
