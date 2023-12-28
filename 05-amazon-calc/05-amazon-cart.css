@@ -9,4 +9,9 @@ body {
 
 .calc-button {
         background-color: green;
+        color: white;
+        border: none;
+        font-size: 15px;
+        padding: 12px 15px;
+        cursor: pointer;
 }
