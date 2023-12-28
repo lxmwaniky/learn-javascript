@@ -1,0 +1,13 @@
+body {
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+.amz-cost {
+        font-size: 15px;
+        padding: 10px 10px 10px 10px;
+        
+}
+
+.calc-button {
+        background-color: green;
+}
