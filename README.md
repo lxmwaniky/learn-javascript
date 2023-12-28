@@ -140,6 +140,18 @@ I'm challenging myself to learn JavaScript in 30 Days from Scratch. Ill be uploa
      3. User should be able to add new todos.
  - ## [Loops](07-loops.html)
      - Loops allow us to repeat actions a set number of times.
+     - While Loops
+          - Execute a piece of code as long as the conditions remain True
+          - Syntax
+               - `while (condition) {
+                    code
+               };`
+     - For Loops
+          - Execute a piece of code for a limited number of time
+          - Syntax
+               - `for (init; condition; incr/decrement) {
+                    code
+               };`
      
 
      
