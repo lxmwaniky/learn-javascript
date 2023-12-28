@@ -37,7 +37,25 @@
                 for (let key in obj){
                         console.log(`The ${key} of object is ${obj[key]}`);
                 }
-
+                // Break and Continue
+                let l = 0;
+                while (l < 5){
+                        console.log(l);
+                        if (l == 3){
+                                break;
+                        }
+                        l += 1;
+                }
+                let m = 0;
+                while (m < 5){
+                        if (m == 3){
+                                m += 1;
+                                continue;
+                        }
+                        console.log(m);
+                        m += 1;
+                }
+                
         </script>
 </body>
 </html>
