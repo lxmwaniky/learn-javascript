@@ -108,6 +108,14 @@ I'm challenging myself to learn JavaScript in 30 Days from Scratch. Ill be uploa
      - Every element on a page is represented by an object in the DOM.
      - We can manipulate these objects to change how a webpage looks and behaves.
      - Example manipulating paragraph text color:
+
+     ### [Exercise 5](/05-amazon-calc/)
+     Build an [Amazon Calculator Project](https://supersimple.dev/projects/dom-with-css/)
+     - Ask for Cost Value. 
+       - Orders under $40 = +$10 shipping.
+       - Orders over $40 = FREE shipping.
+     - Print out the Total Cost after Shipping fees added
+      
 ## Day 4
  - ## [Arrays](06-arrays.html)
      - Arrays are ordered collections of items.
