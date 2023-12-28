@@ -24,7 +24,7 @@ I'm challenging myself to learn JavaScript in 30 Days from Scratch. Ill be uploa
     - **Let** and **Const**
         - Let allows you to declare variables that are limited in scope to the block, statement, or expression on which it is used.
         - Const lets you declare a variable that is constant and its value cannot be reassigned once it's set.
-        ### [Exercise 1](1-cart.html)
+        ### [Exercise 1](01-cart.html)
         Create a [Cart Quantity tracker](https://supersimple.dev/projects/variables/)
         1. Start with an empty cart.
         2. Add items to the cart (+1).
@@ -32,7 +32,7 @@ I'm challenging myself to learn JavaScript in 30 Days from Scratch. Ill be uploa
         4. Increment by 3.
         5. Reset Cart.
 ## Day 1
-- ## [Booleans](2-booleans.html)
+- ## [Booleans](02-booleans.html)
    - Booleans are `true` or  `false` values.
    - They are used in conditional statements like If Else Statements.
      - `==` - equals to
@@ -50,7 +50,7 @@ I'm challenging myself to learn JavaScript in 30 Days from Scratch. Ill be uploa
      - '' (empty string)
      - NaN (Not a number)
      
-     ### [Exercise 2](2-rock-paper-scissors.html)
+     ### [Exercise 2](02-rock-paper-scissors.html)
      Implement [Rock Paper Scissors game](https://supersimple.dev/projects/rock-paper-scissors/).
      1. Prompt user to choose either rock, paper, or scissors.
      2. Generate computer's choice randomly. `Math.random()`
