@@ -1,3 +1,9 @@
+function keyDown(event){
+        if (event.key === 'Enter'){
+                calculateCost();
+        }
+}
+
 function calculateCost(){
         const inputElement = document.querySelector('.amz-cost');
         let cost = Number(inputElement.value);
