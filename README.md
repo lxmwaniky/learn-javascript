@@ -140,8 +140,6 @@ I'm challenging myself to learn JavaScript in 30 Days from Scratch. Ill be uploa
      3. User should be able to add new todos.
  - ## [Loops](07-loops.html)
      - Loops allow us to repeat actions a set number of times.
-     - There are two types of loops in JavaScript `for...of` and `for...in`.
-     - `For...Of`: Loop through values in an iterable object like an array.
      
 
      
